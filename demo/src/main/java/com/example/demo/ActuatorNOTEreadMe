@@ -1,0 +1,18 @@
+Spring Boot Actuator.
+
+
+its consists with production ready features to help you monitor and manage application
+Actuator is a group of binaries which get added to the class path and just a fact of them beig in the class path
+enables a few features
+
+run the project to see the results>>>>
+
+http://localhost:8080/health   in the postman and do a GET request and see how the respond is
+
+
+this is a new end point added to our applications without a controller
+
+while yor project is on port:8080 this actuator can be changed to another URL and make a separate endPoint
+for that add to your application.properties:9001 or any valid port number
+
+now you can access the actuator end point using   >  http://localhost:9001/health
